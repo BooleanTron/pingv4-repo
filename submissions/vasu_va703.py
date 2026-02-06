@@ -8,7 +8,7 @@ BASE_DEPTH = 5
 MOVE_ORDER = [3, 2, 4, 1, 5, 0, 6]
 
 
-class Bot(AbstractBot):
+class va703(AbstractBot):
 
     @property
     def strategy_name(self) -> str:
@@ -16,11 +16,11 @@ class Bot(AbstractBot):
 
     @property
     def author_name(self) -> str:
-        return "Your Name"
+        return "Vasu"
 
     @property
     def author_netid(self) -> str:
-        return "your_netid"
+        return "va703"
 
     # ================== MAIN ENTRY ==================
 

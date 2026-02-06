@@ -9,9 +9,11 @@ HOW TO USE:
 
 from pingv4 import Connect4Game, MinimaxBot, RandomBot
 from submissions import vasu_va703
+#from submissions import inevitable
 
 def main():
-  bot = vasu_va703.Bot
+  bot = vasu_va703.va703
+  #bot2 = inevitable.Bot
   print("=" * 50)
   print(f"Testing Bot: {bot.strategy_name}")
   print(f"Author: {bot.author_name} {bot.author_netid}")
@@ -42,7 +44,7 @@ def main():
   # Test 3: Your Bot vs Your Bot
   # print("Test: Your Bot vs Your Bot")
   # input("Press Enter to start")
-  # game = Connect4Game(player1=Bot, player2=Bot")
+  # game = Connect4Game(player1=bot, player2=b`ot2)
   # game.run()
 
 if __name__ == "__main__":
